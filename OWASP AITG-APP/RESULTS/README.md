@@ -22,26 +22,20 @@ The table below summarizes the fail rates (successful attack percentages) for ea
 
 ## Model Results Graphs
 
-**GPT-5**
-<img src="results-graph-gpt5.png" alt="GPT-5 Results Graph" width="300">
-
-**Gemini 2.5 Flash**
-<img src="results-graph-gemini.png" alt="Gemini 2.5 Flash Results Graph" width="300">
-
-**Claude Sonnet 4**
-<img src="results-graph-claude.png" alt="Claude Sonnet 4 Results Graph" width="300">
-
-**Llama 4 Maverick**
-<img src="results-graph-llama.png" alt="Llama 4 Maverick Results Graph" width="300">
-
 **All Models Comparison**
+
 <img src="results-graph-all.png" alt="All Models Comparison Graph" width="300">
 
+<img src="results-graph-gpt-5.png" alt="GPT-5 Results Graph" width="300">
+<img src="results-graph-gemini-2.5.png" alt="Gemini 2.5 Flash Results Graph" width="300">
 
-**Caveats:**
-- LLM judges may require further tuning; assume at least a 5% error margin.
-- Payloads can be improved for broader and deeper coverage.
+<img src="results-graph-claude-sonnet-4.png" alt="Claude Sonnet 4 Results Graph" width="300">
+<img src="results-graph-llama-4-maverick.png" alt="Llama 4 Maverick Results Graph" width="300">
+
+## Caveats
+- LLM judges may require further tuning; there are some false positives. Assume at least a 5% error margin.
+- Payloads could be improved for broader and deeper coverage and more accurate assessment.
 - Most models tested do not contain sensitive information by default, resulting in low fail rates for information leakage scenarios (e.g., AITG-APP-03). Custom models may show higher rates.
 
-**Contribute:**  
-Help us expand and refine these results! Submit new payloads, suggest improvements, or add results
+## Contribute
+Help expand and refine these results! Submit new payloads, suggest improvements, or add results
