@@ -12,7 +12,7 @@ These YAML files can be integrated into red teaming pipelines, model eval framew
 
 ## 📊 Results
 
-To demonstrate the LLM attack surface, the payloads in this repository were run against four major models: GPT-5, Gemini 2.5 Flash, Claude Sonnet 4, and Llama 4 Maverick. The results show the percentage of successful attacks (fail rate) for each test scenario. For detailed results and methodology, see the [RESULTS folder](./RESULTS/).
+To demonstrate the LLM attack surface, the payloads in this repository were run against four major models: GPT-5, Gemini 2.5 Flash, Claude Sonnet 4, and Llama 4 Maverick. The results show the percentage of successful attacks (fail rate) for each test scenario. For detailed results and methodology, see the [RESULTS folder](./RESULTS/). Raw results are provided in both `jsonl` and `csv`.
 
 ## 📚 Getting Started
 
