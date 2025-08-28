@@ -10,6 +10,10 @@ Each AITG-APP-XX.yaml file defines a structured test scenario targeting a specif
 
 These YAML files can be integrated into red teaming pipelines, model eval frameworks, or used manually by analysts for step-by-step testing.
 
+## 📊 Results
+
+To demonstrate the LLM attack surface, the payloads in this repository were run against four major models: GPT-5, Gemini 2.5 Flash, Claude Sonnet 4, and Llama 4 Maverick. The results show the percentage of successful attacks (fail rate) for each test scenario. For detailed results and methodology, see the [RESULTS folder](./RESULTS/).
+
 ## 📚 Getting Started
 
 1. Clone the repo:
